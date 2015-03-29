@@ -4,22 +4,41 @@
 		<title>Guess The Number</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" media ="screen" href="css/bootstrap.min.css">
+		<link rel='stylesheet' media='screen' href='my-style.css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script src='js/bootstrap.min.js'></script>		
 	</head>
 	<body>
-		<div class='page-header container'>
-			<header> Guessing Game Project</header>
+		<div class='row'>
+
 		</div>
-		<div class='container'>
-			<h1>Guess The Number</h1>
-			<form>Please enter a number between 1 and 100:<br>
-			<div class='input-group'>
-				<input type="text" name="number"></form>
-				<button>Enter</button>
+		<div class='row'>
+			<div class='page-header container'>
+				<header> Guessing Game Project</header>
 			</div>
 		</div>
-		<div class='container'>
-			<button>Play again!</button>
-			<button>Give me a hint.</button>
-		</div>		
+		
+		<div class='row containter'>
+			<div class='container'>
+				<h1>Guess The Number</h1>
+				<div class='container'>
+					<img src="http://i588.photobucket.com/albums/ss323/Euler5853/welldone.gif" border="0" alt="well done photo: Well Done ! welldone.gif"/>
+				</div>
+				<form>Please enter a number<br>
+				<div class='input-group container'>
+					<input type="number" name="guess" placeholder="Enter Number 1-100"></form>
+					<button type ='button' class='btn btn-default btn-sm enter'>Enter</button>
+				</div>
+			</div>
+			<div class='container'>
+				<p1></p1><br>
+				<p2></p2>
+			</div>
+			<div class='container'>
+				<button type ='button' class='btn btn-success btn-sm newGame'>Play again!</button>
+				<button type ='button' class='btn btn-warning btn-sm hint'>Give me a hint.</button>
+			</div>	
+		</form>	
 	</body>
 </html>
