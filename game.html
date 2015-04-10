@@ -23,12 +23,12 @@
 			<div class='container'>
 				<h1>Guess The Number</h1>
 				<div class='container'>
-					<img src="http://i588.photobucket.com/albums/ss323/Euler5853/welldone.gif" border="0" alt="well done photo: Well Done ! welldone.gif"/>
+					<img src="http://i588.photobucket.com/albums/ss323/Euler5853/welldone.gif" border="0" alt="well done photo: Well Done ! welldone.gif" class='img-rounded'/>
 				</div>
-				<form>Please enter a number<br>
 				<div class='input-group container'>
-					<input type="number" name="guess" placeholder="Enter Number 1-100"></form>
-					<button type ='button' class='btn btn-default btn-sm enter'>Enter</button>
+					<h2>Please enter a number.</h2><br>
+					<input type="text" name="guess" placeholder="Enter Number 1-100" >
+					<button type ='button' class='btn btn-default btn-lg enter'>Enter</button>
 				</div>
 			</div>
 			<div class='container'>
@@ -36,9 +36,18 @@
 				<p2></p2>
 			</div>
 			<div class='container'>
-				<button type ='button' class='btn btn-success btn-sm newGame'>Play again!</button>
-				<button type ='button' class='btn btn-warning btn-sm hint'>Give me a hint.</button>
+				<button type ='button' class='btn btn-success btn-lg newGame'>Play again!</button>
+				<button type ='button' class='btn btn-warning btn-lg hint'>Give me a hint.</button>
 			</div>	
-		</form>	
+			<div class='container'>
+				<table class = 'table'>
+					<tr>
+						<th># Attempt</th>
+						<th>Previous Guess</th>
+						<th>Temperature</th>
+					</tr>
+				</table>
+			</div>
+		</div>	
 	</body>
 </html>
